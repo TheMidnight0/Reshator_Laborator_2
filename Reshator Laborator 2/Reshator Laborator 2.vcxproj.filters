@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Flowey Sprites">
+      <UniqueIdentifier>{c60ba00c-76fa-49f4-8a09-fa4246a73c3f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="functions.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="lab_resolve.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="settings_reader.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainWindow.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Reshator Laborator 2.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Sprites\face_basic.png">
+      <Filter>Файлы ресурсов\Flowey Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\face_scary.png">
+      <Filter>Файлы ресурсов\Flowey Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\face_smug.png">
+      <Filter>Файлы ресурсов\Flowey Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\flowey_hide1.png">
+      <Filter>Файлы ресурсов\Flowey Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\flowey_hide2.png">
+      <Filter>Файлы ресурсов\Flowey Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\flowey_hide3.png">
+      <Filter>Файлы ресурсов\Flowey Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\flowey_show1.png">
+      <Filter>Файлы ресурсов\Flowey Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\flowey_show2.png">
+      <Filter>Файлы ресурсов\Flowey Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\flowey_show3.png">
+      <Filter>Файлы ресурсов\Flowey Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\flowey_sink1.png">
+      <Filter>Файлы ресурсов\Flowey Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\flowey_sink2.png">
+      <Filter>Файлы ресурсов\Flowey Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\flowey_sink3.png">
+      <Filter>Файлы ресурсов\Flowey Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\flowey_sink4.png">
+      <Filter>Файлы ресурсов\Flowey Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\flowey_sink5.png">
+      <Filter>Файлы ресурсов\Flowey Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\miss.png">
+      <Filter>Файлы ресурсов\Flowey Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\slash1.png">
+      <Filter>Файлы ресурсов\Flowey Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\slash2.png">
+      <Filter>Файлы ресурсов\Flowey Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\slash3.png">
+      <Filter>Файлы ресурсов\Flowey Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\slash4.png">
+      <Filter>Файлы ресурсов\Flowey Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\slash5.png">
+      <Filter>Файлы ресурсов\Flowey Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\slash6.png">
+      <Filter>Файлы ресурсов\Flowey Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\stem.png">
+      <Filter>Файлы ресурсов\Flowey Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\2.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Sprites\Laborator.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Sprites\Reshator.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="icon.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="cursor.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Sprites\flowey_basic.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Sprites\flowey_laugh1.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Sprites\flowey_laugh2.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Sprites\flowey_scary.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Sprites\flowey_smug.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Sprites\flowey_tricky.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Sprites\flowey_stem.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Sprites\flowey.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Tasks\lab_1.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Sprites\flowey_laugh.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Sprites\flowey_tricky2.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Tasks\lab_7_1.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Tasks\lab_7_2.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Tasks\lab_2.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Tasks\lab_3_1.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Tasks\lab_3_2.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Tasks\lab_4_1.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Tasks\lab_4_2.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Tasks\lab_5.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Tasks\lab_6_1.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Tasks\lab_6_2.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Tasks\not_found.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sprites.resx">
+      <Filter>Файлы ресурсов</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
